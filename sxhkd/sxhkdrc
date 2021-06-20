@@ -1,0 +1,11 @@
+#Terminal
+super + Return
+        alacritty
+
+#dmenu
+super + d
+        dmenu_run
+
+#kill
+super + c
+        bspc node -t {tiled,floating,fullscreen}
